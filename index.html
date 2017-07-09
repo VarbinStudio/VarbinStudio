@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AstRunOut</title>
+	<link type="text/css" rel="stylesheet" href="css/Style.css">
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script>
+		$(window).scroll(function(){
+
+			var st = $(this).scrollTop();
+
+
+			if(st > -200){
+			$(".Block_1").css({
+				"transform" : "translate(0%, -"+ st/35 +"%"
+			});
+		}
+		});
+	</script>
+</head>
+<body>
+<header>
+<div class="Content">
+<div class="TopMenu"><h1 class="LogoFont">VarbinStudio</h1>
+<ul>
+	<li><a id="TopMenuButton" href="" >News</a></li>
+	<li><a id="TopMenuButton" href="">GameDev</a></li>
+	<li><a id="TopMenuButton" href="">AboutUs</a></li>
+	<li><a id="TopMenuButton" href="">Social</a></li>
+</ul>
+<div>
+<div class="Block_1">
+	<h1 id="CenterText">AstRunOut</h1>
+	<div class="line"></div>
+	<p class="SubText" style="margin-bottom:25px;">﻿Главный герой игры терпит бедствие при входе в атмосферу <b>Марса</b> из-за шторма и разбивает свой космолёт. Теперь единственная его цель - убежать как можно   дальше и быстрее от разрушительного шторма, сносящего всё на своём пути. Cамое главное - это не упасть, иначе шторм настигнет вас!</p>
+	<p class="SubText" style="margin-bottom:20px;">Game Developer Blog</p>
+	<div class="line"  style="margin-bottom:25px;"></div>
+	<center><a href="javascript://0" style="" >Read More</a></center>
+
+</div>
+</div>
+</header>
+<section class="Content BackgroundSettings" style="height: 500px; margin-top: 20px; margin-bottom: 20px;">
+<div class="Content"  style="height: 500px; margin-top: 20px;">
+	<h1 class="CenterText" style="text-align: center; color: #454545; font-size: 2em;">#News</h1>
+	<div class="line" style="background-color: #3C3C3C;"></div>
+	<img class="Image" src="https://inspirationfeeeed.files.wordpress.com/2015/01/spaceship-by-dani-does-art.jpg">
+</div> 
+<div class="Content"  style="height: 500px; margin-top: 20px;">
+</div>
+</section>
+<section class="Content" style="height: 500px;"> 
+</section>
+</body>
+</html>
